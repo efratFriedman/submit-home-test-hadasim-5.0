@@ -1,0 +1,40 @@
+.order-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 12px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-pending {
+    background-color: #fff3cd;  
+    border-left: 5px solid #ffc107; 
+  }
+  
+  .order-in_progress {
+    background-color: #cce5ff; 
+    border-left: 5px solid #007bff;
+  }
+  
+  .order-completed {
+    background-color: #d4edda; 
+    border-left: 5px solid #28a745; 
+  }
+  .order-list-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px; 
+    padding: 16px;
+  }
+  
+  .order-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+    font-family: Arial, sans-serif;
+    background: white;
+  }
+  
+  
